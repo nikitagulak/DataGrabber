@@ -11,7 +11,7 @@
 		01C7BC76227C8F68000B236A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7BC75227C8F68000B236A /* ViewController.swift */; };
 		01C7BC78227C8F69000B236A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C7BC77227C8F69000B236A /* Assets.xcassets */; };
 		01C7BC7B227C8F69000B236A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C7BC79227C8F69000B236A /* Main.storyboard */; };
-		01C7BC84227C9254000B236A /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7BC83227C9254000B236A /* Record.swift */; };
+		01C7BC84227C9254000B236A /* WeatherRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7BC83227C9254000B236A /* WeatherRecord.swift */; };
 		01C7BC86227CE9B1000B236A /* TeamRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7BC85227CE9B1000B236A /* TeamRecord.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +23,7 @@
 		01C7BC7A227C8F69000B236A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01C7BC7C227C8F69000B236A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01C7BC7D227C8F69000B236A /* DataGrabber.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DataGrabber.entitlements; sourceTree = "<group>"; };
-		01C7BC83227C9254000B236A /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		01C7BC83227C9254000B236A /* WeatherRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRecord.swift; sourceTree = "<group>"; };
 		01C7BC85227CE9B1000B236A /* TeamRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +59,7 @@
 			children = (
 				01C7BC73227C8F68000B236A /* AppDelegate.swift */,
 				01C7BC75227C8F68000B236A /* ViewController.swift */,
-				01C7BC83227C9254000B236A /* Record.swift */,
+				01C7BC83227C9254000B236A /* WeatherRecord.swift */,
 				01C7BC85227CE9B1000B236A /* TeamRecord.swift */,
 				01C7BC77227C8F69000B236A /* Assets.xcassets */,
 				01C7BC79227C8F69000B236A /* Main.storyboard */,
@@ -142,7 +142,7 @@
 				01C7BC76227C8F68000B236A /* ViewController.swift in Sources */,
 				01C7BC86227CE9B1000B236A /* TeamRecord.swift in Sources */,
 				01C7BC74227C8F68000B236A /* AppDelegate.swift in Sources */,
-				01C7BC84227C9254000B236A /* Record.swift in Sources */,
+				01C7BC84227C9254000B236A /* WeatherRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

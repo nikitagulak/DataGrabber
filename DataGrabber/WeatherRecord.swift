@@ -8,7 +8,15 @@
 
 import Foundation
 
-struct Record {
+struct WeatherRecord {
     var day: String = ""
     var temperature: String = ""
+    
+    init(day: String, temperature: String) {
+        self.day = day
+        self.temperature = temperature
+    }
+    
+    init() {}
+    
 }
