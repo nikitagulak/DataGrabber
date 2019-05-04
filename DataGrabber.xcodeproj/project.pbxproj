@@ -38,6 +38,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		019FD5AF227DB01600B3E36E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01C7BC75227C8F68000B236A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		019FD5B0227DB02500B3E36E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01C7BC83227C9254000B236A /* WeatherRecord.swift */,
+				01C7BC85227CE9B1000B236A /* TeamRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		019FD5B1227DB03E00B3E36E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01C7BC79227C8F69000B236A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		019FD5B2227DB05600B3E36E /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				01C7BC73227C8F68000B236A /* AppDelegate.swift */,
+				01C7BC77227C8F69000B236A /* Assets.xcassets */,
+				01C7BC7C227C8F69000B236A /* Info.plist */,
+				01C7BC7D227C8F69000B236A /* DataGrabber.entitlements */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
 		01C7BC67227C8F68000B236A = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +93,10 @@
 		01C7BC72227C8F68000B236A /* DataGrabber */ = {
 			isa = PBXGroup;
 			children = (
-				01C7BC73227C8F68000B236A /* AppDelegate.swift */,
-				01C7BC75227C8F68000B236A /* ViewController.swift */,
-				01C7BC83227C9254000B236A /* WeatherRecord.swift */,
-				01C7BC85227CE9B1000B236A /* TeamRecord.swift */,
-				01C7BC77227C8F69000B236A /* Assets.xcassets */,
-				01C7BC79227C8F69000B236A /* Main.storyboard */,
-				01C7BC7C227C8F69000B236A /* Info.plist */,
-				01C7BC7D227C8F69000B236A /* DataGrabber.entitlements */,
+				019FD5B0227DB02500B3E36E /* Model */,
+				019FD5B1227DB03E00B3E36E /* View */,
+				019FD5AF227DB01600B3E36E /* Controller */,
+				019FD5B2227DB05600B3E36E /* SupportFiles */,
 			);
 			path = DataGrabber;
 			sourceTree = "<group>";
@@ -279,11 +311,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DataGrabber/DataGrabber.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DataGrabber/SupportFiles/DataGrabber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 664H2WD289;
-				INFOPLIST_FILE = DataGrabber/Info.plist;
+				INFOPLIST_FILE = DataGrabber/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -298,11 +330,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DataGrabber/DataGrabber.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DataGrabber/SupportFiles/DataGrabber.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 664H2WD289;
-				INFOPLIST_FILE = DataGrabber/Info.plist;
+				INFOPLIST_FILE = DataGrabber/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
